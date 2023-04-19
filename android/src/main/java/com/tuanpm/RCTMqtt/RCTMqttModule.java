@@ -37,6 +37,15 @@ public class RCTMqttModule extends ReactContextBaseJavaModule
     }
 
     @ReactMethod
+    public void addListener(String eventName){
+
+    }
+    @ReactMethod
+    public void removeListeners(Integer count){
+
+    }
+
+    @ReactMethod
     public void createClient(final ReadableMap options,
                              Promise promise)
     {
